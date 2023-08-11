@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    background-color: aliceblue;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color:black;
+}
+.header{
+    height: 20vh;
+    display: flex;
+    width: 100%;
+
+}
+.header i{
+    font-size: 40px;
+    font-weight: 100px;
+}
+.header h2{
+    font-size: 3vw;
+    text-align: center;
+    color:#ff7300;
+    font-family: 'Signika Negative', sans-serif;
+    align-items: center;
+    padding: 30px 80px ;
+}
+.header img{
+    height: 40px;
+}
+.list{
+    display: flex;
+    padding: 30px 80px;
+width: 100%;
+height:60vh ;
+}
+.list-left{
+    margin: 20px;
+    width: 50%;
+}
+.list-right{
+    margin: 20px;
+    width: 50%;
+}
+.song-one{
+    padding: 2.5vw;
+    border:3px solid gray ;
+    margin: 10px;
+    height: 7vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.song-one h4{
+    font-size: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: #ff7300;
+}
+span i{
+    font-size: 2vw;
+    color: #ff7300;
+}
+.menu{
+    height: 20vh;
+width: 100%;
+}
+button i{
+    
+    margin: 1% 45% 0 45%;
+}
+.menu i{
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    color: #ff7300;
+
+}
+
+input{
+    cursor: pointer;
+    margin: 2% 20% ;
+    width:60% ;
+}
